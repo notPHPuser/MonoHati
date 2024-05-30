@@ -1,7 +1,17 @@
+* {
+  margin: 0;
+}
+
 body {
   width: 100%;
 }
 
-* {
-  margin: 0;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+:root {
+  --pink: rgb(243, 194, 193);
+  --blue: rgb(175, 238, 237);
 }
