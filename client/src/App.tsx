@@ -1,7 +1,8 @@
 import './App.css';
 
-function App() {
-  return <>SPERMA</>;
+function App () {
+  
+  return <></>;
 }
 
 export default App;
