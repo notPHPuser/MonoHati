@@ -3,6 +3,6 @@ from fastapi import FastAPI, Depends, Request
 app = FastAPI()
 
 
-@app.get('')
+@app.get('/')
 def Artem():
-    return "дурак"
+    return "педик"
