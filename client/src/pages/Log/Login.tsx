@@ -1,7 +1,7 @@
 function Login() {
   return (
     <>
-      <div className='we'>wertyui</div>
+      <div className='we'>qwe</div>
     </>
   );
 }
