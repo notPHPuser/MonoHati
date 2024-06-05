@@ -14,7 +14,7 @@ function Header({ login = 'login' }: header) {
             {login}
           </Link>
         </div>
-      </div>   
+      </div>
     </>
   );
 }
