@@ -8,7 +8,6 @@
   display: flex;
   align-items: center;
   background-color: rgb(255, 255, 255);
-  
 }
 
 .right_header {
@@ -27,53 +26,63 @@
   position: relative;
   right: -10%;
 }
-h1{
+h1 {
   position: relative;
   left: 10%;
   font-family: monospace;
-
 }
-.name{
-
+.name {
   position: relative;
   display: flex;
   left: 10%;
 }
-.name1{
+.name1 {
   position: relative;
   display: flex;
   left: 9.8%;
 }
-.login{
+.login {
   color: aliceblue;
-  left: 18%;
-  width: 6%;
+  height: 35px;
+  width: 9%;
   position: relative;
-  height: 20px;
-  top: 8px;
+  left: 67%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* height: 20px; */
+  /* top: 8px; */
+  background-color: #0083c0;
+  border-radius: 8px;
   font-size: 18px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
 }
-.katalog{
+
+.rectangle {
+  left: 65%;
+  width: 11%;
+  height: 70%;
+  position: relative;
+  background-color: #0083c0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.katalog {
   width: 7%;
   color: black;
   position: relative;
   right: px;
   right: 8%;
   font-size: 18px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.rectangle{
-  left: 65%;
-  width: 11%;
-  height: 70%;
-  position: relative;
-  background-color:#0083c0;
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-between;
-}
-.liked{
+
+.liked {
   position: relative;
   width: 5%;
   right: 40%;
