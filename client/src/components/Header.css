@@ -24,6 +24,7 @@
 .logo {
   width: 5%;
   position: relative;
+  user-select: none;
   right: -10%;
 }
 h1 {
@@ -34,12 +35,14 @@ h1 {
 .name {
   position: relative;
   display: flex;
+  user-select: none;
   left: 10%;
 }
 .name1 {
   position: relative;
   display: flex;
   left: 9.8%;
+  user-select: none;
 }
 .login {
   color: aliceblue;

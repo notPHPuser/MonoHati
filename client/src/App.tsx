@@ -4,7 +4,7 @@ import Header from './components/Header';
 function App() {
   return (
     <>
-      <Header login='Войти' />
+      <Header login='Войти' catalog='Каталог' />
     </>
   );
 }

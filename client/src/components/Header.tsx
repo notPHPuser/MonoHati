@@ -5,9 +5,10 @@ import hat from '../assets/heart.png';
 
 interface header {
   login: string;
+  catalog: string;
 }
 
-function Header({ login = 'login' }: header) {
+function Header({ login = 'login', catalog = 'Каталог' }: header) {
   return (
     <>
       <div className='header'>
@@ -23,7 +24,9 @@ function Header({ login = 'login' }: header) {
             {login}
           </Link>
 
-          <p className='katalog'>Каталог</p>
+          <Link to='' className='katalog'>
+            {catalog}
+          </Link>
           <img src={hat} className='liked' />
         </div>
       </div>
