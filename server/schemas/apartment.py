@@ -1,5 +1,6 @@
 from pydantic import BaseModel
-from typing import Union
+from typing import Union, Annotated
+from fastapi import Query
 
 # {
 #     "id" : 1,
@@ -18,6 +19,6 @@ class Apartment(BaseModel):
     room_count : int
     floor : int
     absolute_area : float
-    living_area : float
-    shared_bathroom : Union[bool, None] = None
-    description : Union[str, None] = None
+    living_area : float | None = None
+    shared_bathroom : bool | None = None #одно и то же, разные виды записи
+    description : Union[str, None] = None # болеее старенький вид(до python 3.10)
