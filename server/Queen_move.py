@@ -81,7 +81,7 @@ def Queen_move(n1: int, n2: int):
 Queen_move(25, 25)
 
 for i in desk:
-    # time.sleep(0.08)
+    time.sleep(0.08)
     print(*i)
 
 res=""
