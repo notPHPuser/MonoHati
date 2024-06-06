@@ -1,5 +1,7 @@
 # в пизду, тут будут шахматы)))0)
-
+import random
+import time
+from termcolor import colored
 
 width = 50
 height = 50
@@ -79,4 +81,16 @@ def Queen_move(n1: int, n2: int):
 Queen_move(25, 25)
 
 for i in desk:
+    time.sleep(0.08)
     print(*i)
+
+res=""
+i = 0
+Artem = "IDI NAHUI"
+while res != Artem:
+    i += 1
+    a = chr(random.randint(97, 132))
+    print(colored(res+a, "red"),end=".")
+    if a == i:
+        res = res+a
+        continue
