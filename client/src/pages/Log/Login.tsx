@@ -1,7 +1,10 @@
+// import { Link } from 'react-router-dom';
+import './Login.css';
+
 function Login() {
   return (
     <>
-      <div className='we'>wertyui</div>
+      <div className='register'></div>
     </>
   );
 }
