@@ -88,8 +88,8 @@ res=""
 i = 0
 Artem = "MNE NEHUI DELAT SOVSEM"
 while res != Artem:
-    time.sleep(0.001)
-    a = chr(random.randint(1, 300)).upper()
+    # time.sleep(0.001)
+    a = chr(random.randint(1, 2000)).upper()
     print(colored(res+a, "red"),end=" ")
     if a == Artem[i]:
         print()
