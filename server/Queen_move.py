@@ -81,16 +81,19 @@ def Queen_move(n1: int, n2: int):
 Queen_move(25, 25)
 
 for i in desk:
-    time.sleep(0.08)
+    # time.sleep(0.08)
     print(*i)
 
 res=""
 i = 0
-Artem = "IDI NAHUI"
+Artem = "MNE NEHUI DELAT SOVSEM"
 while res != Artem:
-    i += 1
-    a = chr(random.randint(97, 132))
-    print(colored(res+a, "red"),end=".")
-    if a == i:
+    time.sleep(0.001)
+    a = chr(random.randint(1, 300)).upper()
+    print(colored(res+a, "red"),end=" ")
+    if a == Artem[i]:
+        print()
+        i += 1
         res = res+a
         continue
+print(colored(Artem, "green"))
