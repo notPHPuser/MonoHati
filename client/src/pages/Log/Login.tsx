@@ -1,4 +1,4 @@
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Login.css';
 import { User } from '../../interfaces/infterface';
 
@@ -13,9 +13,15 @@ function Login() {
       <div className='register'>
         <p className='enterReg'>Вход</p>
         <form className='formForReg'>
-          <input type='text' value={user.name} />
-          <input type='text' value={user.email} />
-          <input type='text' value={user.password} />
+          <input className='regInput' type='text' placeholder={user.name} />
+          <input className='regInput' type='text' placeholder={user.email} />
+          <input className='regInput' type='text' placeholder={user.password} />
+          <button className='submitReg' type='submit'>
+            Зарегистрироваться
+          </button>
+          <Link className='linkMenu' to='/'>
+            На главное меню
+          </Link>
         </form>
       </div>
     </>

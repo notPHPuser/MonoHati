@@ -1,26 +1,61 @@
 .register {
   display: flex;
-  /* justify-content: center; */
   position: relative;
   border: 1px solid black;
   width: 30%;
-  height: 70vh;
-  top: 10vh;
+  height: 50vh;
+  top: 15vh;
   margin: auto;
-  /* text-align: center; */
-  /* align-items: center; */
+  box-shadow: 0px 0px 10px 5px var(--blue);
+  border: none;
+  border-radius: 10px;
 }
 
 .enterReg {
   font-weight: 900;
   position: relative;
   left: 45%;
-  font-size: 30px;
+  font-size: 35px;
+  top: 5vh;
 }
 
 .formForReg {
   position: relative;
   display: flex;
   flex-direction: column;
-  top: 10vh;
+  top: 15vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 300px;
+  left: -7%;
+}
+
+.regInput {
+  position: relative;
+  margin-bottom: 25px;
+  top: 20px;
+  width: 80%;
+  height: 20px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.regInput:focus {
+  border-bottom: 1px solid var(--pink);
+}
+
+.submitReg {
+  position: relative;
+  top: 5vh;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--pink);
+  cursor: pointer;
+}
+
+.linkMenu {
+  position: relative;
+  top: 8vh;
 }
