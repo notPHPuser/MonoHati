@@ -1,11 +1,26 @@
 .register {
   display: flex;
+  /* justify-content: center; */
   position: relative;
   border: 1px solid black;
   width: 30%;
   height: 70vh;
-  /* left: 30%; */
   top: 10vh;
   margin: auto;
-  text-align: center;
+  /* text-align: center; */
+  /* align-items: center; */
+}
+
+.enterReg {
+  font-weight: 900;
+  position: relative;
+  left: 45%;
+  font-size: 30px;
+}
+
+.formForReg {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 10vh;
 }
