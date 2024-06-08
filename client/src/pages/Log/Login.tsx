@@ -14,8 +14,8 @@ function Login() {
         <p className='enterReg'>Вход</p>
         <form className='formForReg'>
           <input className='regInput' type='text' placeholder={user.name} />
-          <input className='regInput' type='text' placeholder={user.email} />
-          <input className='regInput' type='text' placeholder={user.password} />
+          <input className='regInput' type='email' placeholder={user.email} />
+          <input className='regInput' type='password' placeholder={user.password} />
           <button className='submitReg' type='submit'>
             Зарегистрироваться
           </button>
