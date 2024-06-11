@@ -2,6 +2,7 @@ from pydantic import BaseModel
 from typing import Union, Annotated
 from fastapi import Query
 
+#писечки
 # {
 #     "id" : 1,
 #     "name" : "popa",
