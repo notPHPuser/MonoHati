@@ -1,14 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
 * {
   margin: 0;
 }
 
 body {
   width: 100%;
+  font-family: 'Reddit Mono', monospace;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+input {
+  outline: none;
 }
 
 :root {
