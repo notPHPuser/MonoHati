@@ -1,7 +1,7 @@
 import './Header.css';
 import { Link } from 'react-router-dom';
-import logotip from '../assets/MH.png';
-import hat from '../assets/heart.png';
+import logotip from '../../assets/MH.png';
+import hat from '../../assets/heart.png';
 
 interface header {
   login: string;

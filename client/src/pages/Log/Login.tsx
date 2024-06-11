@@ -12,6 +12,7 @@ function Login() {
     <>
       <div className='register'>
         <p className='enterReg'>Вход</p>
+
         <form className='formForReg'>
           <input className='regInput' type='text' placeholder={user.name} />
           <input className='regInput' type='email' placeholder={user.email} />
@@ -23,6 +24,11 @@ function Login() {
             На главное меню
           </Link>
         </form>
+        {/* <div className='createAccount'>
+          <p>
+            Нет аккаунта? <Link to='/register'>Создать</Link>
+          </p>
+        </div> */}
       </div>
     </>
   );

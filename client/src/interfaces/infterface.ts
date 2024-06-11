@@ -18,3 +18,7 @@ export interface AllInfoApartment {
   shared_bathroom: number;
   description: string;
 }
+
+export type AllInfoAAboutApart = Apartment & AllInfoApartment;
+
+// export interface AllInfoAAboutApart extends Apartment, AllInfoApartment {}

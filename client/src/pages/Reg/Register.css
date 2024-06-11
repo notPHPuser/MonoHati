@@ -1,4 +1,4 @@
-.register {
+.registerPage {
   display: flex;
   position: relative;
   border: 1px solid black;
@@ -11,15 +11,15 @@
   border-radius: 10px;
 }
 
-.enterReg {
+.enterRegPage {
   font-weight: 900;
   position: relative;
-  left: 42%;
-  font-size: 35px;
+  left: 23%;
+  font-size: 27px;
   top: 5vh;
 }
 
-.formForReg {
+.formForRegPage {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -28,14 +28,14 @@
   display: flex;
   align-items: center;
   height: 300px;
-  left: -7%;
+  left: -28%;
 }
 
-.regInput {
+.regInputPage {
   position: relative;
   margin-bottom: 25px;
   top: 20px;
-  width: 80%;
+  width: 157%;
   height: 20px;
   border: none;
   border-bottom: 1px solid black;
@@ -45,7 +45,7 @@
   border-bottom: 1px solid var(--pink);
 }
 
-.submitReg {
+.submitRegPage {
   position: relative;
   top: 5vh;
   height: 35px;
@@ -55,13 +55,7 @@
   cursor: pointer;
 }
 
-.linkMenu {
+.linkMenuPage {
   position: relative;
   top: 8vh;
 }
-
-/* .createAccount {
-  position: relative;
-  width: 100%;
-  left: -10%;
-} */
